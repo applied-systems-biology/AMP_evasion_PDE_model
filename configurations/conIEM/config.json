@@ -3,7 +3,7 @@
     "runs": 1,
     "number_of_threads": 1,
     "seed": 42,
-    "config_path": "../../configurations/conSDM",
+    "config_path": "../../configurations/conIEM",
     "output_dir": "../../output",
     "conda_dir": "/home/ybachelot/miniconda3/bin/conda"
   }
