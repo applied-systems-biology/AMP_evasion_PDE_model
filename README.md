@@ -1,4 +1,4 @@
-# Spatial Distancing
+# AMP evasion
 
 A computational model framework for simulating molecular interactions between host and pathogen cell.
 
@@ -36,14 +36,14 @@ The following software components are required to build and use the ABM framewor
 
 To build the framework, clone the repository to a local folder (here: Spatial_distancing_PDE_model/) and use the following commands:
 
-`~/Spatial_distancing_PDE_model$ mkdir build; cd build`
+`~/AMP_evasion_PDE_model$ mkdir build; cd build`
 
 Release or Debug mode:
 
-`~/Spatial_distancing_PDE_model/build$ cmake -DCMAKE_BUILD_TYPE=Release .. `
-or `~/Spatial_distancing_PDE_model/build$ cmake -DCMAKE_BUILD_TYPE=Debug .. `
+`~/AMP_evasion_PDE_model/build$ cmake -DCMAKE_BUILD_TYPE=Release .. `
+or `~/AMP_evasion_PDE_model/build$ cmake -DCMAKE_BUILD_TYPE=Debug .. `
 
-`~/Spatial_distancing_PDE_model/build$ make `
+`~/AMP_evasion_PDE_model/build$ make `
 
 The compiled files can be found in the build/ folder.
 
@@ -51,9 +51,9 @@ The compiled files can be found in the build/ folder.
 
 To test if everything was compiled accordingly, run test configuration (this should take a few seconds):
 
-`~/Spatial_distancing_PDE_model/build$ cd test/`
+`~/AMP_evasion_PDE_model/build$ cd test/`
 
-`~/Spatial_distancing_PDE_model/build/test$ ./test_configurations`
+`~/AMP_evasion_PDE_model/build/test$ ./test_configurations`
 
 (Test must be executed from the folder)
 
@@ -63,7 +63,7 @@ If the tests pass, the framework and its corresponding libraries were successful
 
 To use the model, run the executable program `build/src/SpatialDistancing` with a `.json` configuration file as program argument
 
-`~/Spatial_distancing_PDE_model build$/src/SpatialDistancing <config-file>.json`
+`~/AMP_evasion_PDE_model build$/src/SpatialDistancing <config-file>.json`
 
 Additional input files
 - `analyser-config.json`
@@ -87,8 +87,8 @@ You also have the possibility to generate ".xyz" files for further visualization
 
 Predefined configurations including test scenarios can be found in the `configurations/` folder.
 
-For the study on conSDM with AMP simulated as an one-time treatment:
-Config folder `configurations/conSDM` and config file `config.json`
+For the study on conIEM with AMP simulated as an one-time treatment:
+Config folder `configurations/conIEM` and config file `config.json`
 
 ## General structure
 The framework is structured as followed:
