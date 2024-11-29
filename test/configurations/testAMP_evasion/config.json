@@ -4,6 +4,6 @@
     "xruns_stats": 0,
     "number_of_threads": 1,
     "seed": 1,
-    "config_path": "../../configurations/testSpatialDistancing"
+    "config_path": "../../configurations/testAMP_evasion"
   }
 }
