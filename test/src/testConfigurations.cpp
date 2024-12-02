@@ -38,8 +38,8 @@ std::string abm::test::test_simulation(const std::string &config) {
   return abm::util::generateHashFromMolecules(time.getCurrentTime(), site->molecule_manager_->get_conc());
 }
 // Spatial distancing Model Test
-TEST_CASE ("Check Spatial Distancing Test") {
-  path config("../../test/configurations/testSpatialDistancing/config.json");
+TEST_CASE ("Check AMP evasion Test") {
+  path config("../../test/configurations/testAMP_evasion/config.json");
         CHECK(exists(config) == true);
   const auto string_return = abm::test::test_simulation(config.string());
         CHECK(string_return == "9120002391968631136");
