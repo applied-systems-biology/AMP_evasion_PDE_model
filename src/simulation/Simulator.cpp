@@ -86,17 +86,7 @@ void Simulator::executeRuns(int runs, int seed, const std::string& output_dir, c
 
             if (time.checkForNumberOfExecutions(11, true)) {
                 SYSTEM_STDOUT("Run: " << current_run << ", Time: " << time.getCurrentTime());
-            }
-            if (time.getCurrentTime() == time.getMaxTime()*0.1 || time.getCurrentTime() == time.getMaxTime()*0.25 ||time.getCurrentTime() == time.getMaxTime()*0.5 ||time.getCurrentTime() == time.getMaxTime()*0.75){ //save results at 10%, 25, 50 and 75% of the simulation
                 analyser->outputAllMeasurements();
-                auto grid = site->molecule_manager_->getGridSize();
-                auto mol_conc = site->molecule_manager_->get_conc().at("AMP");
-                for (auto conc: mol_conc){
-                    if (conc == NAN || conc < 0 || conc > 1e100){
-                        SYSTEM_STDOUT("Invalid molecule concentration - likely due to timestep too large");
-                        break;
-                    }
-                }
             }
             if(site->get_steady_state()){
                 SYSTEM_STDOUT("Stopping criteria met:");
