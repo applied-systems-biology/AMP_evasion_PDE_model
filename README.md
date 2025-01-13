@@ -47,13 +47,15 @@ or `~/AMP_evasion_PDE_model/build$ cmake -DCMAKE_BUILD_TYPE=Debug .. `
 
 The compiled files can be found in the build/ folder.
 
-### Run test configurations
+### Run test Units & configurations
 
-To test if everything was compiled accordingly, run test configuration (this should take a few seconds):
+To test if everything was compiled accordingly, run test configurations and test units (this should take a few seconds):
 
 `~/AMP_evasion_PDE_model/build$ cd test/`
 
 `~/AMP_evasion_PDE_model/build/test$ ./test_configurations`
+
+`~/AMP_evasion_PDE_model/build/test$ ./test_units`
 
 (Test must be executed from the folder)
 
