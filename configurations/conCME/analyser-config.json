@@ -1,0 +1,12 @@
+{
+  "AMP_evasion": {
+    "active_measurements": [
+      "molecules_test%10000",
+      "inside_conc%10000",
+      "spatial_dist_center_updated%10000",
+      "agent-statistics%10000"
+    ],
+    "cell_state_count": [
+    ]
+  }
+}

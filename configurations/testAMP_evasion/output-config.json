@@ -1,0 +1,7 @@
+{
+  "AMP_evasion": {
+    "output_csv": false,
+    "output_graphs": false,
+    "output_ovito": false
+  }
+}

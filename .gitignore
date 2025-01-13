@@ -1,0 +1,11 @@
+statistics.txt
+cmake-build*
+results*
+.gitignore
+results/runs.xml
+.idea*
+output
+Schemes
+videos
+build
+/output/
