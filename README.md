@@ -2,7 +2,8 @@
 
 A computational model framework for simulating molecular interactions between host and pathogen cell.
 
-Yann Bachelot, Anastasia Solomatina, Marc Thilo Figge
+Bachelot, Y., Solomatina, A. & Figge, M.T. Complex-mediated evasion: modeling defense against antimicrobial peptides with application to human-pathogenic fungus Candida albicans. npj Syst Biol Appl 11, 81 (2025). https://doi.org/10.1038/s41540-025-00559-1
+
 
 Research Group Applied Systems Biology - Head: Prof. Dr. Marc Thilo Figge\
 https://www.leibniz-hki.de/en/applied-systems-biology.html \
